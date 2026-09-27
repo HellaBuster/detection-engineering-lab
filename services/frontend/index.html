@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detection Engineering Lab</title>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">CONTROLLED LAB ENVIRONMENT</p>
+      <h1>Detection Engineering Lab</h1>
+      <p id="status" role="status">Проверяем API и PostgreSQL…</p>
+      <dl>
+        <div>
+          <dt>Frontend</dt>
+          <dd class="ok">ready</dd>
+        </div>
+        <div>
+          <dt>API</dt>
+          <dd id="api-state">checking</dd>
+        </div>
+        <div>
+          <dt>Database</dt>
+          <dd id="database-state">checking</dd>
+        </div>
+      </dl>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.artifacts/
+.git/
+.venv/
+coverage/
+**/dist/
+node_modules/
+uv.lock
+*.md

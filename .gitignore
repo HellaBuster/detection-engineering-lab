@@ -26,6 +26,14 @@ Thumbs.db
 *.log
 tmp/
 temp/
+.artifacts/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+coverage/
+mlruns/
 
 # Large raw data
 datasets/**/*.zip

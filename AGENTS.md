@@ -197,6 +197,11 @@ At the start of every session, read:
 8. `progress/OPEN_QUESTIONS.md`
 9. `progress/DECISIONS.md`
 
+Before technical work, run `powershell -ExecutionPolicy Bypass -File scripts/doctor.ps1`.
+Use the project Python through `uv run` and Node.js through `fnm exec --using 24`.
+When dependencies change, the AI agent must update the relevant lock file.
+The learner must not be asked to maintain environment documentation manually.
+
 Do not restart the course from memory.
 
 The repository is the source of truth.

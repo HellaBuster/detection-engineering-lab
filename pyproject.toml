@@ -1,0 +1,69 @@
+[project]
+name = "detection-engineering-lab"
+version = "0.1.0"
+description = "Reproducible tooling for the Detection Engineering Lab curriculum"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pyright",
+  "pytest",
+  "pytest-cov",
+  "ruff",
+]
+data = [
+  "duckdb",
+  "jupyterlab",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pandera",
+  "pyarrow",
+  "scipy",
+  "seaborn",
+  "statsmodels",
+]
+api = [
+  "alembic",
+  "fastapi[standard-no-fastapi-cloud-cli]",
+  "httpx",
+  "prometheus-client",
+  "psycopg[binary]",
+  "pydantic-settings",
+  "sqlalchemy",
+  "structlog",
+]
+ml = [
+  "imbalanced-learn",
+  "lightgbm",
+  "mlflow",
+  "scikit-learn",
+  "shap",
+]
+observability = [
+  "opentelemetry-api",
+  "opentelemetry-exporter-otlp-proto-grpc",
+  "opentelemetry-instrumentation-fastapi",
+  "opentelemetry-instrumentation-sqlalchemy",
+  "opentelemetry-sdk",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests/python"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pyright]
+pythonVersion = "3.13"
+include = ["services", "tests/python"]

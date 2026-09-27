@@ -1,0 +1,15 @@
+.git
+.venv
+node_modules
+.artifacts
+.env
+coverage
+htmlcov
+datasets
+assets
+progress
+curriculum
+labs
+case-studies
+projects
+README.md
