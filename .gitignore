@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Large raw data
+datasets/**/*.zip
+datasets/**/*.parquet
+datasets/**/*.feather
+datasets/**/*.db
+datasets/**/*.sqlite
+datasets/**/*.sqlite3
