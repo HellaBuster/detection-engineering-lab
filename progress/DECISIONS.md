@@ -55,3 +55,15 @@ Avoid secrets, private credentials, personal data, or proprietary datasets.
 Repository state + completed evidence + physical notebook.
 
 Chat history alone is not authoritative.
+
+## Assistance and surrender
+
+The learner is allowed to request hints, partial solutions, or complete solutions.
+
+A complete AI-provided solution never closes a mastery gate.
+
+After a complete solution, the topic remains open until a new unseen task demonstrates learner-owned reasoning.
+
+The system evaluates ownership of reasoning rather than memorized syntax or manual typing.
+
+Repeated difficulty triggers adaptive remediation, not automatic passage and not punishment.

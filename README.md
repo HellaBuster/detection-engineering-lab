@@ -61,12 +61,13 @@ The AI agent must read:
 
 1. `AGENTS.md`
 2. `curriculum/MASTERY_GATE_POLICY.md`
-3. `curriculum/ROADMAP.md`
-4. `progress/CURRENT.md`
-5. `progress/MASTERY.md`
-6. `progress/PROGRESS.md`
-7. `progress/OPEN_QUESTIONS.md`
-8. `progress/DECISIONS.md`
+3. `curriculum/ASSISTANCE_POLICY.md`
+4. `curriculum/ROADMAP.md`
+5. `progress/CURRENT.md`
+6. `progress/MASTERY.md`
+7. `progress/PROGRESS.md`
+8. `progress/OPEN_QUESTIONS.md`
+9. `progress/DECISIONS.md`
 
 Then continue from the current state.
 
@@ -90,3 +91,12 @@ The repository should gradually become evidence that the learner can:
 - communicate technical findings clearly.
 
 The goal is not to become a fast typist of code. The goal is to become an engineer who understands systems and can direct tools, including AI, with judgment.
+
+
+## Assistance does not equal mastery
+
+The learner may ask the AI for hints or even a complete solution.
+
+A complete AI-provided solution does not close the gate.
+
+The learner must later demonstrate the same underlying concept on a new unseen task. The system tracks reasoning ownership, not manual typing.

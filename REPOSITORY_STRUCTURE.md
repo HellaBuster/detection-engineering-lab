@@ -11,6 +11,7 @@ detection-engineering-lab/
 ├── curriculum/
 │   ├── ROADMAP.md
 │   ├── MASTERY_GATE_POLICY.md
+│   ├── ASSISTANCE_POLICY.md
 │   ├── LEARNING_CONTRACT.md
 │   ├── NOTEBOOK_PROTOCOL.md
 │   ├── SESSION_PROTOCOL.md

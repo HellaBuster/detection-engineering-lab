@@ -189,12 +189,13 @@ At the start of every session, read:
 
 1. `AGENTS.md`
 2. `curriculum/MASTERY_GATE_POLICY.md`
-3. `curriculum/ROADMAP.md`
-4. `progress/CURRENT.md`
-5. `progress/MASTERY.md`
-6. `progress/PROGRESS.md`
-7. `progress/OPEN_QUESTIONS.md`
-8. `progress/DECISIONS.md`
+3. `curriculum/ASSISTANCE_POLICY.md`
+4. `curriculum/ROADMAP.md`
+5. `progress/CURRENT.md`
+6. `progress/MASTERY.md`
+7. `progress/PROGRESS.md`
+8. `progress/OPEN_QUESTIONS.md`
+9. `progress/DECISIONS.md`
 
 Do not restart the course from memory.
 
@@ -293,3 +294,42 @@ Before ending, provide:
 - recommended Git commit message.
 
 Do not ask whether the learner "wants to move on" when progression is determined by the mastery gate.
+
+## Assistance and surrender policy
+
+Read `curriculum/ASSISTANCE_POLICY.md` before teaching.
+
+The learner is allowed to ask for hints or even a complete solution.
+
+Do not shame, lecture, or punish the learner for doing so.
+
+However:
+
+- assistance does not automatically create mastery evidence;
+- a `FULL_SOLUTION` can never close a mastery gate;
+- after a full solution, keep the topic open and later give a new unseen transfer task;
+- distinguish syntax assistance from conceptual assistance;
+- evaluate who performed the key reasoning, not who typed the code.
+
+For important gates, record the assistance level when it materially affects the mastery judgment:
+
+- `INDEPENDENT`
+- `LIGHT_HINT`
+- `STRONG_HINT`
+- `PARTIAL_SOLUTION`
+- `FULL_SOLUTION`
+
+If repeated assistance is required, adapt the teaching method rather than mechanically repeating the same exercise.
+
+The desired progression is from AI-owned reasoning toward learner-owned reasoning.
+
+## Mandatory post-solution verification
+
+If you provide the complete answer or solve the key reasoning for the learner:
+
+1. mark the attempt as `FULL_SOLUTION`;
+2. explain the solution;
+3. do not mark the topic `PASSED`;
+4. keep it `ACTIVE` or `PROVISIONAL`;
+5. later present a new unseen task testing the same principle;
+6. pass the gate only when the learner demonstrates ownership of the important reasoning.

@@ -185,6 +185,14 @@ Evidence:
 - misconception check:
 - connection to prior topic:
 
+Assistance history:
+- attempt 1:
+- attempt 2:
+- final verification:
+
+Final reasoning ownership:
+LEARNER / MIXED / AI
+
 Source type:
 ...
 

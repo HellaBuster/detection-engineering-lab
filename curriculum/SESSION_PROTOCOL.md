@@ -53,3 +53,27 @@ Instead decide:
 or:
 
 > Gate not passed. One criterion remains.
+
+## When the learner gives up
+
+If the learner says they give up or asks for the answer:
+
+1. help at the minimum level likely to restart learning;
+2. escalate assistance if needed;
+3. provide a complete solution if that is the useful next step;
+4. label the attempt appropriately;
+5. do not treat a complete solution as gate completion.
+
+After a complete solution:
+
+```text
+worked solution
+-> explanation
+-> topic remains open
+-> new unseen task
+-> reassessment
+```
+
+If the learner fails repeatedly, change the representation or repair a prerequisite.
+
+Do not endlessly repeat near-identical tasks.

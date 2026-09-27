@@ -50,3 +50,18 @@ Prefer:
 over:
 
 > Here is a 400-line application that happens to contain the same property.
+
+## Generated code and mastery
+
+Generated code may be used even during an assessment when implementation syntax is not the competency being tested.
+
+The evaluator must separate:
+
+- implementation assistance;
+- conceptual assistance.
+
+Example:
+
+If the learner independently decides to compare pre/post-release score distributions and asks AI to write the plotting boilerplate, the reasoning may still belong to the learner.
+
+If AI decides what data to inspect, which comparison to make, what result means, and what action to take, the attempt is substantially AI-led and cannot be treated as independent mastery evidence.

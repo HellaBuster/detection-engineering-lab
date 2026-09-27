@@ -55,3 +55,17 @@ The learner is expected to increasingly own:
 - debugging strategy;
 - architecture choices;
 - detection decisions.
+
+## Asking for help is allowed
+
+The learner is not required to struggle indefinitely.
+
+They may ask for a hint or complete solution.
+
+The system does not punish this.
+
+The trade-off is simple:
+
+**help can advance understanding, but AI-owned reasoning cannot be used as proof that the learner owns the skill.**
+
+Therefore a fully solved task is followed by later independent or learner-led verification.

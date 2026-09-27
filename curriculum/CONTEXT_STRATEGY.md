@@ -66,3 +66,16 @@ Good examples:
 - `learn: pass precision and recall gate`
 - `case-study: investigate false-positive increase`
 - `project: add telemetry ingestion endpoint`
+
+## Persisting assistance dependency
+
+When assistance materially affects a mastery decision, record it in the relevant lab and/or `progress/MASTERY.md`.
+
+This allows a new chat or agent session to know whether the learner:
+
+- solved independently;
+- needed light guidance;
+- received a worked solution;
+- still needs unseen verification.
+
+Do not rely on chat history to remember this.

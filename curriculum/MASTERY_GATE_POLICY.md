@@ -109,3 +109,36 @@ The authoritative record is:
 - case-study evidence
 
 If a topic is not explicitly `PASSED`, it is not passed.
+
+## Assistance-aware mastery
+
+The evaluator must distinguish learning support from mastery evidence.
+
+A learner may receive unlimited help.
+
+But:
+
+- `FULL_SOLUTION` is instructional evidence only;
+- `FULL_SOLUTION` cannot be the final evidence used to mark `PASSED`;
+- after a full solution, a new unseen transfer task is mandatory before passage;
+- the new task must test the same principle without simply copying the solved template.
+
+A topic may remain `PROVISIONAL` for as many attempts as needed.
+
+The evaluator should prefer adaptive remediation over lowering the standard.
+
+## Independence is about reasoning
+
+Do not require pointless unaided syntax recall.
+
+The important question is whether the learner owns:
+
+- the hypothesis;
+- the approach;
+- the relevant evidence;
+- the interpretation;
+- the decision.
+
+A request for minor syntax help does not automatically invalidate mastery.
+
+See `curriculum/ASSISTANCE_POLICY.md`.

@@ -48,3 +48,9 @@ Prediction:
 ## Mastery criteria
 
 ...
+
+## Assistance rule
+
+If the AI provides a `FULL_SOLUTION`, this lab attempt cannot by itself close the mastery gate.
+
+A separate unseen verification task is required.

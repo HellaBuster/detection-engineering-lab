@@ -48,3 +48,53 @@ Occasionally test understanding from a different angle:
 - change the data distribution.
 
 This distinguishes real understanding from recognition.
+
+## Assistance-aware assessment
+
+When evaluating a task, optionally record:
+
+- `INDEPENDENT`
+- `LIGHT_HINT`
+- `STRONG_HINT`
+- `PARTIAL_SOLUTION`
+- `FULL_SOLUTION`
+
+Do not score typing independence.
+
+Score reasoning independence.
+
+## Unseen verification after a worked solution
+
+If the AI solved the task:
+
+- do not immediately retry the identical problem;
+- first ensure the learner can explain the principle;
+- later give a new task that changes context, representation, or constraints;
+- verify whether the learner can transfer the concept.
+
+A complete worked solution followed by recognition is not enough.
+
+## Assistance trajectory
+
+A healthy trajectory may look like:
+
+```text
+FULL_SOLUTION
+-> STRONG_HINT
+-> LIGHT_HINT
+-> INDEPENDENT
+```
+
+This is acceptable progress.
+
+A pattern such as:
+
+```text
+FULL_SOLUTION
+-> FULL_SOLUTION
+-> FULL_SOLUTION
+```
+
+means the current teaching strategy is not producing independent understanding.
+
+Diagnose and repair the cause instead of passing the gate.
