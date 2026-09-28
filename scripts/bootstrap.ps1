@@ -122,7 +122,8 @@ function Ensure-EnvironmentFile {
         "POSTGRES_PASSWORD=$postgresPassword",
         "POSTGRES_DB=detection_lab",
         "GRAFANA_ADMIN_USER=admin",
-        "GRAFANA_ADMIN_PASSWORD=$grafanaPassword"
+        "GRAFANA_ADMIN_PASSWORD=$grafanaPassword",
+        "COMPOSE_PROFILES=all"
     )
     [IO.File]::WriteAllLines($path, $content, [Text.UTF8Encoding]::new($false))
     Write-Host "[created] .env with local random credentials"
