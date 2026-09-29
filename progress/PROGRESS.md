@@ -2,15 +2,15 @@
 
 ## Current phase
 
-Phase 0 — System Orientation
+Phase 0 - System Orientation
 
 ## Passed gates
 
-0
+1
 
 ## Active gate
 
-0.1 — End-to-end system map
+0.2 - Rules vs ML
 
 ## Labs completed
 
@@ -26,7 +26,7 @@ Phase 0 — System Orientation
 
 ## Review status
 
-0.1 is PROVISIONAL; no regression recorded.
+0.1 passed; no regressions recorded.
 
 ---
 

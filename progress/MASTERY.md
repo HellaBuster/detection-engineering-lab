@@ -12,8 +12,8 @@ This file is authoritative.
 
 ## Phase 0 — System Orientation
 
-[~] 0.1 End-to-end system map
-[L] 0.2 Rules vs ML
+[x] 0.1 End-to-end system map
+[A] 0.2 Rules vs ML
 [L] 0.3 Telemetry
 [L] 0.4 Fraud / abuse signal
 [L] 0.5 False positive / false negative
@@ -22,22 +22,22 @@ This file is authoritative.
 ## 0.1 - End-to-end system map
 
 Status:
-PROVISIONAL
+PASSED
 
 Evidence:
 - explanation: learner can explain basic browser -> backend -> telemetry -> feature -> rule -> decision flow with assistance;
-- reconstruction: partial; application plumbing was identified, but detection layers were omitted in the unseen scenario;
+- reconstruction: learner reconstructed the full browser/network/backend/telemetry/features/rule-or-ML/decision map in the final unseen verification;
 - prediction: correctly predicted threshold behavior and user-scoped filtering after remediation;
 - experiment: synthetic threshold experiment passed; local Playwright smoke test passed;
 - transfer task: correctly predicted that an event for another user would not change the scoped feature;
-- misconception check: corrected event vs feature and feature vs rule distinctions, but final independent classification remained incomplete;
+- misconception check: corrected event vs feature, feature vs rule, telemetry evidence vs inference, and Playwright vs detector distinctions;
 - connection to prior topic: connected browser actions, HTTP requests, backend metrics, and database readiness.
 
 Assistance history:
 - early attempts: STRONG_HINT;
 - transfer and code interpretation: STRONG_HINT;
 - final map correction: FULL_SOLUTION;
-- final unseen verification: incomplete.
+- final unseen verification: passed independently in a new login/ML context.
 
 Final reasoning ownership:
 MIXED
@@ -46,10 +46,10 @@ Source type:
 SYNTHETIC + REAL_OWN_LOGS
 
 Passed by evaluator:
-N/A
+2026-09-29
 
 Notes:
-Keep 0.2 locked. Start the next session with one short unseen verification task focused on event, feature, rule, evidence, Playwright, and ML placement.
+The learner correctly classified a telemetry event, features, ML risk score, threshold, decision, backend evidence, and Playwright's test role in an unseen scenario. Do not infer repeated attempts or device identity without evidence. Topic 0.2 is unlocked.
 
 ## Phase 1 — Programming Literacy
 

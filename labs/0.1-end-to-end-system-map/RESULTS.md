@@ -34,16 +34,16 @@ An event for `user_id=99` was excluded by the user filter, so user `66` remained
 
 ## Evidence for mastery
 
-Partial only. The learner correctly handled the controlled threshold experiment and parts of the local browser/API map, but did not independently reconstruct all detection layers in the unseen scenario.
+The learner correctly handled the controlled threshold experiment, local browser/API map, and a new unseen login/ML scenario. The final verification distinguished event, feature, ML score, threshold, decision, backend evidence, and Playwright role.
 
 ## Final conclusion
 
-The end-to-end system map is partially understood. A short unseen verification task remains mandatory.
+The end-to-end system map is mastered at the required high level. One precision note remains: do not infer repeated attempts or device identity without direct evidence.
 
 ## Assistance used
 
 Level:
-FULL_SOLUTION
+FULL_SOLUTION, followed by INDEPENDENT verification
 
 What assistance was provided:
 The assistant supplied the corrected full classification after the final unseen attempt and provided repeated targeted hints during threshold, time-window, and event/feature remediation.
@@ -54,14 +54,14 @@ MIXED
 ## If a full solution was shown
 
 Was a new unseen verification task completed?
-NO
+YES
 
 Verification result:
-Pending.
+Passed: the learner classified telemetry event, features, ML output, threshold, decision, evidence, and Playwright role in a new context.
 
 ## Gate decision
 
-PROVISIONAL
+PASSED
 
 Reason:
-Core relationships are present, but independent reconstruction of telemetry, feature, rule, evidence, Playwright, and ML placement is incomplete.
+The final unseen task demonstrated learner-owned reconstruction of the end-to-end map and correct placement of telemetry, features, rules/ML, evidence, Playwright, and decision.
