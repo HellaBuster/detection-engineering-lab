@@ -10,7 +10,7 @@ Phase 0 — System Orientation
 
 ## Status
 
-ACTIVE
+PROVISIONAL
 
 ## Current objective
 
@@ -26,12 +26,15 @@ browser
 
 ## Last completed experiment
 
-None.
+`labs/0.1-end-to-end-system-map/` — synthetic threshold experiment and local browser/API observation.
 
 ## Known weak points
 
-Not assessed yet.
+- distinguish telemetry event, feature, rule, decision, and evidence;
+- place Playwright outside the production risk decision path;
+- place ML after feature computation and before the final decision;
+- reconstruct the full map without assistance.
 
 ## Next gate
 
-The learner must be able to reconstruct the system map, explain every layer at a high level, and distinguish where Playwright, telemetry, ML, and detection belong.
+Complete one unseen verification task for 0.1. The learner must reconstruct the system map, explain every layer at a high level, and distinguish where Playwright, telemetry, ML, and detection belong without a full solution.

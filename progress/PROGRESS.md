@@ -14,7 +14,7 @@ Phase 0 — System Orientation
 
 ## Labs completed
 
-0
+1
 
 ## Case studies completed
 
@@ -26,7 +26,7 @@ Phase 0 — System Orientation
 
 ## Review status
 
-No regressions recorded.
+0.1 is PROVISIONAL; no regression recorded.
 
 ---
 

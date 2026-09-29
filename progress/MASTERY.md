@@ -12,12 +12,44 @@ This file is authoritative.
 
 ## Phase 0 — System Orientation
 
-[A] 0.1 End-to-end system map
+[~] 0.1 End-to-end system map
 [L] 0.2 Rules vs ML
 [L] 0.3 Telemetry
 [L] 0.4 Fraud / abuse signal
 [L] 0.5 False positive / false negative
 [L] 0.6 Adversarial detection loop
+
+## 0.1 - End-to-end system map
+
+Status:
+PROVISIONAL
+
+Evidence:
+- explanation: learner can explain basic browser -> backend -> telemetry -> feature -> rule -> decision flow with assistance;
+- reconstruction: partial; application plumbing was identified, but detection layers were omitted in the unseen scenario;
+- prediction: correctly predicted threshold behavior and user-scoped filtering after remediation;
+- experiment: synthetic threshold experiment passed; local Playwright smoke test passed;
+- transfer task: correctly predicted that an event for another user would not change the scoped feature;
+- misconception check: corrected event vs feature and feature vs rule distinctions, but final independent classification remained incomplete;
+- connection to prior topic: connected browser actions, HTTP requests, backend metrics, and database readiness.
+
+Assistance history:
+- early attempts: STRONG_HINT;
+- transfer and code interpretation: STRONG_HINT;
+- final map correction: FULL_SOLUTION;
+- final unseen verification: incomplete.
+
+Final reasoning ownership:
+MIXED
+
+Source type:
+SYNTHETIC + REAL_OWN_LOGS
+
+Passed by evaluator:
+N/A
+
+Notes:
+Keep 0.2 locked. Start the next session with one short unseen verification task focused on event, feature, rule, evidence, Playwright, and ML placement.
 
 ## Phase 1 — Programming Literacy
 
